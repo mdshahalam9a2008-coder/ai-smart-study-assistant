@@ -1,0 +1,143 @@
+/* Basic Settings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Website Background */
+body {
+    font-family: Arial, sans-serif;
+    background: #101426;
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 35px 15px;
+    background: linear-gradient(135deg, #24204a, #49317d);
+}
+
+header h1 {
+    color: #c5b5ff;
+    margin-bottom: 12px;
+    font-size: 30px;
+}
+
+header p {
+    color: #ddddf5;
+}
+
+/* Main Section */
+main {
+    padding: 35px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+main h2 {
+    margin-bottom: 12px;
+    color: #ffffff;
+}
+
+/* Feature Cards */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+
+/* Individual Card */
+.card {
+    background: #202944;
+    padding: 25px;
+    border-radius: 15px;
+    border: 1px solid #414b70;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    border-color: #a58aff;
+}
+
+.card h3 {
+    color: #c5b5ff;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    color: #d0d5e5;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/* Buttons */
+button {
+    background: #8064ed;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #6345ce;
+}
+
+/* Workspace */
+#workspace {
+    margin-top: 35px;
+    padding: 25px;
+    background: #202944;
+    border-radius: 15px;
+    border: 1px solid #414b70;
+    min-height: 130px;
+}
+
+#workspace h2 {
+    color: #c5b5ff;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 13px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #555;
+    background: #f5f5f5;
+    color: #111;
+    font-size: 15px;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+    color: #aeb5ca;
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    main {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}

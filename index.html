@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Smart Study Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🤖 AI Smart Study Assistant</h1>
+        <p>Your Personal Learning Companion</p>
+    </header>
+
+    <main>
+        <h2>Welcome, Student! 👋</h2>
+        <p>What would you like to learn today?</p>
+
+        <section class="cards">
+
+            <div class="card">
+                <h3>💬 AI Chat</h3>
+                <p>Ask your study questions.</p>
+                <button onclick="showFeature('chat')">
+                    Start Chat
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>📝 Quiz Generator</h3>
+                <p>Test your knowledge.</p>
+                <button onclick="showFeature('quiz')">
+                    Start Quiz
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>📅 Study Planner</h3>
+                <p>Plan your daily studies.</p>
+                <button onclick="showFeature('planner')">
+                    Create Plan
+                </button>
+            </div>
+
+            <div class="card">
+                <h3>📚 Notes Maker</h3>
+                <p>Create quick revision notes.</p>
+                <button onclick="showFeature('notes')">
+                    Make Notes
+                </button>
+            </div>
+
+        </section>
+
+        <section id="workspace">
+            <h2>Choose a feature to begin!</h2>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI Smart Study Assistant | College AI Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
